@@ -8,7 +8,7 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import cn.jpush.android.api.JPushInterface;
 
 /**
- * 作    者：高磊
+ * 作    者：赵雷&周辉
  * 时    间：16/9/3
  */
 public class LiveVideo extends Application {

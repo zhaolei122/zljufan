@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.widget.GridView;
 
 /**
- * 作    者：高磊
+ * 作    者：赵雷&周辉
  * 时    间：2015/9/3
  */
 public class NoScrollView extends GridView {

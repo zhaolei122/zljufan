@@ -22,7 +22,7 @@ import cn.jpush.android.api.JPushInterface;
  */
 
 /**
- * 作者：高磊
+ * 作者：赵雷&周辉
  * on 2016/9/21.
  */
 public class MyService extends BroadcastReceiver {

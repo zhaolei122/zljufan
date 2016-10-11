@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -18,15 +17,16 @@ import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import com.bwie.gl_livevideo.R;
 import com.bwie.gl_livevideo.main.adapter.FollowListAdapter;
+import com.bwie.gl_livevideo.main.adapter.LooperAdapter;
 import com.bwie.gl_livevideo.main.bean.Follow_bean;
+import com.bwie.gl_livevideo.main.bean.ImageUrl;
 import com.bwie.gl_livevideo.view.AirectseedingActivity;
 import com.google.gson.Gson;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.bwie.gl_livevideo.R;
-import com.bwie.gl_livevideo.main.adapter.LooperAdapter;
-import com.bwie.gl_livevideo.main.bean.ImageUrl;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -36,8 +36,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 作者：高磊
- * on 2016/9/5.
+ * 作者：赵雷&周辉
+ * on
  */
 public class Follow extends Fragment {
 
