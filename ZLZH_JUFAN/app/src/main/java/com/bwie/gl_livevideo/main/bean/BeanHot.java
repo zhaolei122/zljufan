@@ -3,8 +3,8 @@ package com.bwie.gl_livevideo.main.bean;
 import java.util.List;
 
 /**
- * 作者： 杨东海
- * 创建时间： 2016-9-6.
+ * 作者：赵雷&周辉
+ * 创建时间：
  */
 public class BeanHot {
 

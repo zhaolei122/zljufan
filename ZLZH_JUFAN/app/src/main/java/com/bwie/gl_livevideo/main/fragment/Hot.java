@@ -21,8 +21,8 @@ import java.net.URL;
 import java.util.List;
 
 /**
- * 作者：高磊
- * on 2016/9/5.
+ * 作者：赵雷&周辉
+ * on.
  */
 public class Hot extends Fragment {
 

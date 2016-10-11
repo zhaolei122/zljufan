@@ -14,10 +14,7 @@ import com.bwie.gl_livevideo.R;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 作者：高磊
- * on 2016/9/12.
- */
+
 public class MyHorizatalScrollView extends HorizontalScrollView implements View.OnClickListener {
 
     private LinearLayout linearLayout;

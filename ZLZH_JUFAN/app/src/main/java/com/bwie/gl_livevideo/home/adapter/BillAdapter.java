@@ -15,10 +15,6 @@ import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 
 import java.util.ArrayList;
 
-/**
- * 作者：高磊
- * on 2016/9/12.
- */
 public class BillAdapter extends BaseAdapter {
 
     private Context context;

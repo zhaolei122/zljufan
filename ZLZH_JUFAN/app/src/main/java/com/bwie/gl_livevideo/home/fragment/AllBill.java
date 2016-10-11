@@ -3,7 +3,6 @@ package com.bwie.gl_livevideo.home.fragment;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,10 +20,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * 作者：高磊
- * on 2016/9/12.
- */
 public class AllBill extends Fragment {
 
     //定义变量

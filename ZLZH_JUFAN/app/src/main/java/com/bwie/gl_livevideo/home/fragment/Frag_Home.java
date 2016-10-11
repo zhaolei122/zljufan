@@ -1,17 +1,14 @@
 package com.bwie.gl_livevideo.home.fragment;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.bwie.gl_livevideo.R;
 import com.bwie.gl_livevideo.home.BillistActivity;
@@ -21,10 +18,6 @@ import com.bwie.gl_livevideo.main.fragment.Hot;
 import com.bwie.gl_livevideo.main.fragment.News;
 import com.viewpagerindicator.TabPageIndicator;
 
-/**
- * 作者：高磊
- * on 2016/9/5.
- */
 public class Frag_Home extends Fragment {
     View view;
     //定义变量

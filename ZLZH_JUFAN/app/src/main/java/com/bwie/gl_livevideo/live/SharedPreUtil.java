@@ -1,14 +1,10 @@
 package com.bwie.gl_livevideo.live;
 
-/**
- * 作者：高磊
- * on 2016/9/19.
- */
-
-import java.util.Map;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+
+import java.util.Map;
 
 /**
  * 使用SharedPreferences存储数据 Created by Bining on 15/12/2.

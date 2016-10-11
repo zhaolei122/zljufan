@@ -9,17 +9,13 @@ import android.widget.TextView;
 
 import com.bwie.gl_livevideo.R;
 import com.bwie.gl_livevideo.main.bean.BeanHot;
-import com.bwie.gl_livevideo.main.bean.Follow_bean;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 
 import java.util.List;
 
-/**
- * 作者：高磊
- * on 2016/9/8.
- */
+
 public class HotAdapter extends BaseAdapter {
     private List<BeanHot.ContentBean.ListBean> list;
     private Context context;

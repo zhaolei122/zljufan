@@ -16,20 +16,14 @@ import com.bwie.gl_livevideo.R;
 import com.bwie.gl_livevideo.home.activity.DmodifyActivity;
 import com.bwie.gl_livevideo.home.activity.SetUpActivity;
 import com.bwie.gl_livevideo.home.bean.User_bean;
-import com.bwie.gl_livevideo.main.bean.Follow_bean;
 import com.google.gson.Gson;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.security.DomainCombiner;
 import java.util.ArrayList;
 
-/**
- * 作者：高磊
- * on 2016/9/5.
- */
 public class Frag_User extends Fragment {
 
     //定义变量

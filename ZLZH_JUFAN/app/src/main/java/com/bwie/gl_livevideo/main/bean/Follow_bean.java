@@ -3,8 +3,8 @@ package com.bwie.gl_livevideo.main.bean;
 import java.util.ArrayList;
 
 /**
- * 作者：高磊
- * on 2016/9/6.
+ * 作者：周辉&赵雷
+ * on .
  */
 public class Follow_bean {
 

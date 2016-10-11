@@ -13,10 +13,6 @@ import com.bwie.gl_livevideo.R;
 
 import java.io.InputStream;
 
-/**
- * 作    者：高磊
- * 时    间：16/9/3
- */
 public abstract class BaseActivity extends FragmentActivity implements View.OnClickListener {
 
 

@@ -2,10 +2,6 @@ package com.bwie.gl_livevideo.home.bean;
 
 import java.util.List;
 
-/**
- * 作者：高磊
- * on 2016/9/12.
- */
 public class Bill_bean {
 
 

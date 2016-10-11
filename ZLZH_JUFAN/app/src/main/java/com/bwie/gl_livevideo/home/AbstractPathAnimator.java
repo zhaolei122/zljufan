@@ -11,10 +11,6 @@ import com.bwie.gl_livevideo.R;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * 作者：高磊
- * on 2016/9/18.
- */
 
 public abstract class AbstractPathAnimator {
     private final Random mRandom;

@@ -20,10 +20,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * 作者：高磊
- * on 2016/9/12.
- */
 public class WeekBill extends Fragment {
 
     //定义变量

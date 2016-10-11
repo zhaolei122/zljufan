@@ -11,10 +11,6 @@ import android.widget.Button;
 import com.bwie.gl_livevideo.R;
 import com.bwie.gl_livevideo.live.LivePublisherDemoActivity;
 
-/**
- * 作者：高磊
- * on 2016/9/5.
- */
 public class Frag_Video extends Fragment {
 
     //定义变量

@@ -3,22 +3,17 @@ package com.bwie.gl_livevideo.main.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.view.PagerAdapter;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import com.bwie.gl_livevideo.main.WebActivity;
 import com.bwie.gl_livevideo.main.bean.ImageUrl;
 
-/**
- * 作者：高磊
- * on 2016/9/5.
- */
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class LooperAdapter extends PagerAdapter {
 
     private Context context;
