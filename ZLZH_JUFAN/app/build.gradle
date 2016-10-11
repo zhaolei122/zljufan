@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "com.bwie.gl_livevideo"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+
+        /*ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }*/
+
+
+
+        /*manifestPlaceholders = [
+                GETUI_APP_ID    : "DsFOUv0y3V73zGwYyrWwr5",
+                GETUI_APP_KEY   : "n1CIXyLv8B8MPQVP5WBjc9",
+                GETUI_APP_SECRET: "qrfspeGWcS7ua3B7dP1mH8",
+                PACKAGE_NAME    : applicationId
+        ]*/
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "dc6677ea7c0b17b294520794", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile project(':library')
+    compile files('libs/gson-2.3.1.jar')
+    compile files('libs/cyberplayer-sdk.jar')
+    compile files('libs/nodemedia-client-v1.2.4.jar')
+}

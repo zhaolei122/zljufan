@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.bwie.gl_livevideo.home.BillistActivity">
+
+    <!--加载头部文件-->
+    <include layout="@layout/activity_main_title"></include>
+
+    <com.bwie.gl_livevideo.home.base.MyHorizatalScrollView
+        android:id="@+id/bill_hsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/bill_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!--加载头部文件-->
+    <!-- <include layout="@layout/main_title"></include>-->
+    <FrameLayout
+        android:id="@+id/frag_lay"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="#00000000"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/check_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@drawable/bg_home_selector"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/check_video"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@mipmap/li_maintab_party_pic_selected"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/check_user"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@drawable/bg_user_selector"
+                android:checked="false" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

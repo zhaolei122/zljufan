@@ -1,0 +1,16 @@
+<application>
+  <component name="SexyEditor">
+    <option name="configs">
+      <list>
+        <BackgroundConfiguration>
+          <option name="fileNames">
+            <array>
+              <option value="F:\新建文件夹\B\壁纸1\图片\535a393f48d5b90f4ac63181.jpg" />
+            </array>
+          </option>
+          <option name="slideshow" value="true" />
+        </BackgroundConfiguration>
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">GL-LiveVideo</string>
+
+    <!--保存到本地的字段-->
+    <string name="sp_name">egg_sp</string>
+
+    <!--主页标题内容-->
+    <string name="mkain_title">富豪榜</string>
+    <!--编辑-->
+    <string name="title_bianji">编辑资料</string>
+    <string name="title_touxiang">设置头像</string>
+    <string name="title_nickname">昵称</string>
+    <string name="title_sex">性別</string>
+    <string name="title_setup">设置</string>
+    <string name="setup_black">黑名单</string>
+    <string name="setup_tui">推送管理</string>
+    <string name="setup_guanyu">关于聚范</string>
+    <string name="setup_user">用户管理</string>
+
+
+    <!--第一次体验-->
+    <string name="livepuli">写个直播标题可以吸引更多用户</string>
+
+    <!--第一次体验-->
+    <string name="employ">立即体验</string>
+    <!--关注-->
+    <string name="follow">关注</string>
+    <!--热点-->
+    <string name="hot">热点</string>
+    <!--最新-->
+    <string name="news">最新</string>
+    <!--用户名-->
+    <string name="username">风往北吹</string>
+    <!--ID-->
+    <string name="id">500056449</string>
+    <!--男-->
+    <string name="man">男</string>
+    <!--女-->
+    <string name="woman">女</string>
+    <!--聚豆-->
+    <string name="judou">聚豆</string>
+    <!--签名-->
+    <string name="autograph">这家伙很懒，什么都没留下！</string>
+    <!--送出-->
+    <string name="song">送出:</string>
+    <!--收到-->
+    <string name="shou">收到:</string>
+    <!--关注-->
+    <string name="guanzhu">关注</string>
+    <!--粉丝-->
+    <string name="fensi">粉丝</string>
+    <!--搜索-->
+    <string name="seach">搜索</string>
+    <!--手机相册-->
+    <string name="photoalbum">从手机相册选择</string>
+    <!--拍照-->
+    <string name="photograph">拍照</string>
+
+
+</resources>
